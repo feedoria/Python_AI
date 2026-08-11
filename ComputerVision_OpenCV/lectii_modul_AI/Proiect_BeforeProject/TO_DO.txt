@@ -1,0 +1,147 @@
+📝 Proiect de practică Tkinter – CRM Simplu pentru Gestionarea Clienților
+🎯 Obiectiv
+
+Realizează o aplicație desktop în Python + Tkinter care simulează un mic CRM (Customer Relationship Management) folosit într-o companie pentru administrarea clienților.
+
+Cerințe
+1. Fereastra principală
+Titlu: CRM - Gestionare Clienți
+Dimensiune: 700x600
+Alege culori potrivite pentru fundal și componente.
+2. Creează următoarele Label-uri
+CRM Gestionare Clienți
+Nume Client
+Email
+Telefon
+Oraș
+Stare Client
+Mesaje
+3. Creează următoarele Entry-uri
+
+Utilizatorul trebuie să poată introduce:
+
+Nume
+Email
+Telefon
+Oraș
+4. Creează un Combobox (ttk.Combobox)
+
+Utilizatorul poate selecta una dintre valorile:
+
+Prospect
+Activ
+VIP
+Inactiv
+5. Creează un Listbox
+
+În acesta vor apărea toți clienții introduși.
+
+Exemplu:
+
+Bogdan | bogdan@gmail.com | București | VIP
+Maria | maria@yahoo.com | Cluj | Activ
+6. Creează următoarele butoane
+Adaugă Client
+
+La apăsare:
+
+verifică dacă toate câmpurile sunt completate;
+dacă lipsesc informații, afișează mesaj cu roșu;
+dacă totul este completat, adaugă clientul în ListBox;
+golește toate Entry-urile;
+resetează Combobox-ul;
+afișează mesaj verde:
+Client adăugat cu succes!
+Șterge Client
+
+Șterge clientul selectat din ListBox.
+
+Dacă nu este selectat nimic:
+
+Selectează un client!
+Golește Tot
+golește toate Entry-urile;
+golește mesajele;
+resetează Combobox-ul.
+Închide Aplicația
+
+Închide aplicația.
+
+7. Label pentru mesaje
+
+Acest Label trebuie să afișeze:
+
+erori (roșu)
+succes (verde)
+8. Funcții pe care trebuie să le creezi
+
+Realizează cel puțin următoarele funcții:
+
+adauga_client()
+
+sterge_client()
+
+goleste_campuri()
+
+inchide_aplicatia()
+9. Validări
+
+Nu permite:
+
+nume gol
+email gol
+telefon gol
+oraș gol
+stare nealeasă
+10. Culori
+
+Folosește culori diferite pentru:
+
+fundal
+titlu
+butoane
+mesajele de eroare
+mesajele de succes
+Bonus 1 ⭐
+
+Adaugă un Label care afișează:
+
+Total clienți: 0
+
+După fiecare adăugare sau ștergere, actualizează automat numărul.
+
+Bonus 2 ⭐⭐
+
+Adaugă un buton "Caută Client".
+
+Utilizatorul introduce un nume într-un Entry separat și aplicația verifică dacă acel client există în ListBox.
+
+Bonus 3 ⭐⭐⭐
+
+Adaugă un buton "Export Simulat".
+
+La apăsare nu salvează într-un fișier, ci afișează mesajul:
+
+Datele au fost exportate cu succes!
+Bonus 4 ⭐⭐⭐⭐
+
+Adaugă un Label în partea de jos care afișează permanent:
+
+CRM Informatic M IT
+Versiunea 1.0
+🎓 Ce vei exersa
+Tk()
+Label
+Entry
+Button
+Listbox
+Combobox
+StringVar
+config()
+pack() sau grid()
+insert()
+delete()
+get()
+curselection()
+selection_get()
+messagebox (opțional)
