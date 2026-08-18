@@ -1,0 +1,9 @@
+Numar factura;Furnizor;Data factura;Categorie;Suma fara TVA;TVA;Suma totala;Moneda;Stare;Observatii
+FF-2026-0001;Enel Energie Muntenia;2026-07-05;Utilități;420,50;79,90;500,40;RON;Plătită;Factura curent birou iulie
+FF-2026-0002;Orange Romania;2026-07-08;Servicii;150,00;28,50;178,50;RON;Neplătită;Abonament telefonie mobila
+FF-2026-0003;Chirie Imobiliara SRL;2026-07-01;Chirie;1.500,00;285,00;1.785,00;RON;Plătită;Chirie birou iulie
+FF-2026-0004;Dedeman;2026-07-12;Materiale;320,00;60,80;380,80;RON;Neplătită;Materiale reparatii
+FF-2026-0005;SkyTransport SRL;2026-07-15;Transport;2.100,75;399,14;2.499,89;RON;Plătită;Transport marfa
+FF-2026-0006;Meta Ads Ireland;2026-07-18;Marketing;890,00;0,00;890,00;EUR;Neplătită;Campanie publicitara Facebook
+FF-2026-0007;Microsoft Romania;2026-07-20;Software/IT;1.200,00;228,00;1.428,00;RON;Plătită;Licente Office 365
+FF-2026-0008;Furnizor Diverse SRL;2026-07-22;Altele;99,99;19,00;118,99;RON;Neplătită;
