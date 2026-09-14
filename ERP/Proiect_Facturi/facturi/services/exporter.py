@@ -3,8 +3,8 @@ import csv
 
 from openpyxl import Workbook
 
-from db import repository
-from models.invoice_table_model import HEADERS
+from ERP.Proiect_Facturi.facturi.db import repository
+from ERP.Proiect_Facturi.facturi.models.invoice_table_model import HEADERS
 
 EXPORT_COLUMNS = [c for c in repository.COLUMNS if c != "id"]
 EXPORT_BATCH = 5000

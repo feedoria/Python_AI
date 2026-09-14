@@ -4,8 +4,8 @@ from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QColor, QPainter
 from PyQt6.QtWidgets import QLabel, QVBoxLayout, QWidget
 
-from db import repository
-from ui.style import ACCENT, MUTED, PRIMARY
+from ERP.Proiect_Facturi.facturi.db import repository
+from ERP.Proiect_Facturi.facturi.ui.style import ACCENT, MUTED, PRIMARY
 
 
 class StatsPanel(QWidget):

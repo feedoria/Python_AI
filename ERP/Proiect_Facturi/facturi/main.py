@@ -3,9 +3,9 @@ import sys
 
 from PyQt6.QtWidgets import QApplication
 
-from db.database import get_connection
-from ui.main_window import MainWindow
-from ui.style import QSS
+from ERP.Proiect_Facturi.facturi.db.database import get_connection
+from ERP.Proiect_Facturi.facturi.ui.main_window import MainWindow
+from ERP.Proiect_Facturi.facturi.ui.style import QSS
 
 
 def main():

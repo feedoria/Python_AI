@@ -17,7 +17,7 @@ from PyQt6.QtWidgets import (
     QWidget,
 )
 
-from constants import CATEGORII_IMPLICITE, COTE_TVA, MONEDE, STARE_NEPLATITA, STARI
+from ERP.Proiect_Facturi.facturi.constants import CATEGORII_IMPLICITE, COTE_TVA, MONEDE, STARE_NEPLATITA, STARI
 
 
 class InvoiceDialog(QDialog):

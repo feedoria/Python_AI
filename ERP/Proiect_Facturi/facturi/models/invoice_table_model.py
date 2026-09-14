@@ -2,8 +2,8 @@
 from PyQt6.QtCore import QAbstractTableModel, QModelIndex, Qt
 from PyQt6.QtGui import QColor
 
-from constants import PAGE_SIZE, STARE_PLATITA
-from db import repository
+from ERP.Proiect_Facturi.facturi.constants import PAGE_SIZE, STARE_PLATITA
+from ERP.Proiect_Facturi.facturi.db import repository
 
 HEADERS = {
     "id": "ID",

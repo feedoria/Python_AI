@@ -17,9 +17,9 @@ from PyQt6.QtWidgets import (
     QVBoxLayout,
 )
 
-from db import repository
-from db.repository import EDITABLE_FIELDS
-from services import importer
+from ERP.Proiect_Facturi.facturi.db import repository
+from ERP.Proiect_Facturi.facturi.db.repository import EDITABLE_FIELDS
+from ERP.Proiect_Facturi.facturi.services import importer
 
 FIELD_LABELS = {
     "numar_factura": "Nr. factură *",

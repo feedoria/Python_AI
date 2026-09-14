@@ -23,12 +23,12 @@ from PyQt6.QtWidgets import (
     QWidget,
 )
 
-from constants import CATEGORII_IMPLICITE, STARI
-from db import repository
-from models.invoice_table_model import InvoiceTableModel
-from services import exporter
-from ui.import_dialog import ImportDialog
-from ui.invoice_dialog import InvoiceDialog
+from ERP.Proiect_Facturi.facturi.constants import CATEGORII_IMPLICITE, STARI
+from ERP.Proiect_Facturi.facturi.db import repository
+from ERP.Proiect_Facturi.facturi.models.invoice_table_model import InvoiceTableModel
+from ERP.Proiect_Facturi.facturi.services import exporter
+from ERP.Proiect_Facturi.facturi.ui.import_dialog import ImportDialog
+from ERP.Proiect_Facturi.facturi.ui.invoice_dialog import InvoiceDialog
 
 TOATE_CATEGORIILE = "Toate categoriile"
 TOATE_STARILE = "Toate stările"
@@ -119,7 +119,7 @@ class MainWindow(QMainWindow):
         splitter = QSplitter(Qt.Orientation.Horizontal)
         splitter.addWidget(self._build_table())
 
-        from ui.stats_panel import StatsPanel
+        from ERP.Proiect_Facturi.facturi.ui.stats_panel import StatsPanel
         self.stats_panel = StatsPanel()
         splitter.addWidget(self.stats_panel)
         splitter.setStretchFactor(0, 3)

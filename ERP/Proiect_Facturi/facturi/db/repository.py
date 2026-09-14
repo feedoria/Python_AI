@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from db.database import get_connection
+from ERP.Proiect_Facturi.facturi.db.database import get_connection
 
 COLUMNS = [
     "id",

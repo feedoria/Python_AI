@@ -3,8 +3,8 @@ import csv
 
 import pandas as pd
 
-from constants import STARE_NEPLATITA
-from db.repository import EDITABLE_FIELDS
+from ERP.Proiect_Facturi.facturi.constants import STARE_NEPLATITA
+from ERP.Proiect_Facturi.facturi.db.repository import EDITABLE_FIELDS
 
 # alias-uri posibile de coloane (comparate case-insensitive, fără diacritice/spații) -> câmp canonic
 COLUMN_ALIASES = {

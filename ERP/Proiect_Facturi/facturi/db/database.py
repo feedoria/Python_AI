@@ -3,7 +3,7 @@ import os
 import sqlite3
 import threading
 
-from constants import DB_PATH
+from ERP.Proiect_Facturi.facturi.constants import DB_PATH
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS invoices (
