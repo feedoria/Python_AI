@@ -203,28 +203,28 @@
 
 # plt.show()
 
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
+# import pandas as pd
+# import seaborn as sns
+# import matplotlib.pyplot as plt
 
-date = {
-    "Timp": [
-        20, 22, 25, 25, 28,
-        30, 30, 31, 35, 36,
-        40, 42, 45, 50, 65
-    ]
-}
+# date = {
+#     "Timp": [
+#         20, 22, 25, 25, 28,
+#         30, 30, 31, 35, 36,
+#         40, 42, 45, 50, 65
+#     ]
+# }
 
-title("Distribuirea timpilor de livrare")
-plt.xlabel("Minute")
-plt.ylabel("Numar livrari")
+# plt.title("Distribuirea timpilor de livrare")
+# plt.xlabel("Minute")
+# plt.ylabel("Numar livrari")
 
-plt.show()df = pd.DataFrame(date)
+# plt.show()
+# df = pd.DataFrame(date)
 
-sns.histplot(
-    data=df,
-    x="Timp",
-    bins=6
-)
+# sns.histplot(
+#     data=df,
+#     x="Timp",
+#     bins=6
+# )
 
-plt.
