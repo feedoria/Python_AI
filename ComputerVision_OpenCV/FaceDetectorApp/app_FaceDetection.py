@@ -12,8 +12,8 @@ import subprocess
 from datetime import datetime
 from PIL import Image, ImageTk
 
-from ComputerVision_OpenCV.FaceDetectorApp.mp_palmdet import MPPalmDet
-from ComputerVision_OpenCV.FaceDetectorApp.mp_handpose import MPHandPose
+from mp_palmdet import MPPalmDet
+from mp_handpose import MPHandPose
 
 
 class FaceDetectionApp:
